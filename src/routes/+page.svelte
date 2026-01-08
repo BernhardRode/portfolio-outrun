@@ -605,7 +605,7 @@
     bottom: 100px;
     left: calc(45% + 10px);
     transform: translateX(-50%) scale(4.8);
-    background: url(ferrari_straight1.svg) no-repeat;
+    background: url(/ferrari_straight1.svg) no-repeat;
     height: 43px;
     width: 80px;
     filter: brightness(100%);
