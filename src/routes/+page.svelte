@@ -182,11 +182,11 @@
 </div>
 
 <div class="dot-nav">
-  <a href="#hero" class:active={activeSection === 'hero'}></a>
-  <a href="#about" class:active={activeSection === 'about'}></a>
-  <a href="#experience" class:active={activeSection === 'experience'}></a>
-  <a href="#skills" class:active={activeSection === 'skills'}></a>
-  <a href="#contact" class:active={activeSection === 'contact'}></a>
+  <a href="#hero" class:active={activeSection === 'hero'} aria-label="Navigate to Hero section"></a>
+  <a href="#about" class:active={activeSection === 'about'} aria-label="Navigate to About section"></a>
+  <a href="#experience" class:active={activeSection === 'experience'} aria-label="Navigate to Experience section"></a>
+  <a href="#skills" class:active={activeSection === 'skills'} aria-label="Navigate to Skills section"></a>
+  <a href="#contact" class:active={activeSection === 'contact'} aria-label="Navigate to Contact section"></a>
 </div>
 
 <section id="hero">
@@ -930,27 +930,6 @@
 
   .score {
     font-variant-numeric: tabular-nums;
-  }
-
-  .neon-btn {
-    display: inline-block;
-    margin-top: 2rem;
-    padding: 1rem 2.5rem;
-    font-family: 'Orbitron', monospace;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: #00d4ff;
-    background: transparent;
-    border: 2px solid #00d4ff;
-    cursor: pointer;
-    transition: all 0.3s;
-    text-decoration: none;
-  }
-
-  .neon-btn:hover {
-    color: #000;
-    background: #00d4ff;
-    box-shadow: 0 0 30px #00d4ff;
   }
 
   .about-grid, .skills-grid, .contact-grid {
