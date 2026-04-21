@@ -6,9 +6,6 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		paths: {
-			base: process.argv.includes('dev') ? '' : '/portfolio-outrun'
-		},
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',
